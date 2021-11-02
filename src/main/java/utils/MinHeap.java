@@ -59,6 +59,7 @@ public class MinHeap
         // since its a min heap, so root = minimum
         Lecture popped = Heap[0];
         Heap[0] = Heap[--index];
+        size--;
         minHeapify(0);
         return popped;
     }
@@ -69,6 +70,7 @@ public class MinHeap
         if (!isLeaf(i)) {
             if (this.compare(Heap[i],Heap[leftChild(i)])==1 ||
                     this.compare(Heap[i],Heap[rightChild(i)])==1 ) {
+
                 if (this.compare(Heap[leftChild(i)], Heap[rightChild(i)])==-1) {
                     swap(i, leftChild(i));
                     minHeapify(leftChild(i));
@@ -114,5 +116,6 @@ public class MinHeap
         }
         return 0;
     }
+
 
 }

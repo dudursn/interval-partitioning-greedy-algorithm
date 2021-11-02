@@ -26,6 +26,6 @@ public class App {
 
         GreedyAlgorithm G = new GreedyAlgorithm();
         G.run(lectures);
-        //G.printResult();
+        G.printResult();
     }
 }

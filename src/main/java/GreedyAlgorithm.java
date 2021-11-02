@@ -31,8 +31,7 @@ public class GreedyAlgorithm {
 
             //Get min lecture by starting time and remove to the MinHeap
             Lecture current = heap.remove();
-            System.out.println(current);
-            heap.printHeap();
+
             //Class empty => add lecture
             if (this.classrooms.isEmpty()) {
 
