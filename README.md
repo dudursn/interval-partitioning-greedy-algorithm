@@ -36,7 +36,7 @@ For sort by starting time, I used a MinHeap through remove function, which get m
 ## Optimal Solution
 <img src="img/Optimal_Solution.png">
 
-## My Greedy Alghoritm Solution
+## My Greedy Alghoritm's Solution
 
     - Classroom{name='class 0'[Lecture{name='b', startTime=09:00, finishTime=12:30}, Lecture{name='f',  startTime=13:00, finishTime=14:30}, Lecture{name='i', startTime=15:00, finishTime=16:30}]}
 
