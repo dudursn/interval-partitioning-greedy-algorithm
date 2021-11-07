@@ -1,6 +1,6 @@
 # Interval partitioning - Greedy Algorithm
 
-This implementation, which uses Java, consists in solving the interval partitioning problem using greedy algorithm.
+This implementation consists in solving the interval partitioning problem using greedy algorithm.
 
 In greedy algorithm problem, there is problem is known as interval partitioning problem and it goes like: There are n lectures to be schedules and there are 
 certain number of classrooms. Each lecture has a start time Sj and finish time Fj. Task is to schedule all lectures in minimum number of classes and there 
