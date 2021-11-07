@@ -33,6 +33,8 @@ The lectures are inserted into a CSV file (https://github.com/dudursn/interval-p
     
 For sort by starting time, I used a MinHeap through remove function, which get min and remove it.
 
+<img src="img/minheap.png">
+
 ## Optimal Solution
 <img src="img/Optimal_Solution.png">
 
